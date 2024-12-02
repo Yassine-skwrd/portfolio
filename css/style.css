@@ -5,9 +5,23 @@
 
 body {
   font-family: "Varela Round", sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
-  font-size: 16 px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 175%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
 }
 
 .red-border {
